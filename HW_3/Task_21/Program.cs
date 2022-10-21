@@ -16,7 +16,7 @@ Console.WriteLine("Введите координату z2: ");
 array[1,2] = int.Parse(Console.ReadLine());
 
 double result=Math.Sqrt(Math.Pow((array[0,0]-array[1,0]),2)+Math.Pow((array[0,1]-array[1,1]),2)+Math.Pow((array[0,2]-array[1,2]),2));
-Console.WriteLine(result);
+Console.WriteLine(result); 
 
 
 
@@ -56,7 +56,7 @@ int y2 = int.Parse(Console.ReadLine());
 int z2 = int.Parse(Console.ReadLine());
 int[] p2 = new int[] {x2, y2, z2};
 
-double result = Math.Sqrt(Math.Pow((p1[0]-p2[0],2)) +Math.Pow((p1[1]-p2[1],2))+ Math.Pow((p1[2]-p2[2],2)));
+double result = Math.Sqrt(Math.Pow((p1[0]-p2[0],2))+ Math.Pow((p1[1]-p2[1],2)) + Math.Pow((p1[2]-p2[2],2)));
 
 Console.WriteLine(result);*/
 
